@@ -47,7 +47,7 @@ function extractTextAndBuild(text) {
 
         buildTree(wrapper, treeContainer);
     } catch (err) {
-        errorMsg.textContent = "Lỗi: Nội dung file không phải mã HTML hợp lệ.";
+        errorMsg.textContent = "Error: Invalid HTML content.";
     }
 }
 
