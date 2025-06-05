@@ -6,6 +6,11 @@ body {
     color: #f0f0f0;
 }
 
+.label {
+    display: inline-block;
+    margin: 16px 0;
+}
+
 /* Heading */
 h1 {
     text-align: center;
@@ -28,7 +33,7 @@ textarea {
 
 textarea:focus {
     outline: none;
-    border-color: #64ffda;
+    /* border-color: #64ffda; */
     box-shadow: 0 0 5px #64ffda55;
 }
 
@@ -228,4 +233,8 @@ textarea:focus {
 #copyright {
     position: fixed;
     bottom: 2rem;
+}
+
+.container {
+    margin-bottom: 20rem;
 }
